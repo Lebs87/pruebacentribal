@@ -1,0 +1,19 @@
+version: "4.26"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    networks:
+      - pruebacentribal-network
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:8080"
+    networks:
+      - pruebacentribal-network
+
+networks:
+  pruebacentribal-network:
+    driver: bridge

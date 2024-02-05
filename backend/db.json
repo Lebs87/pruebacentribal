@@ -1,0 +1,290 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "reference": "REF001",
+      "name": "Cuaderno de Espiral",
+      "description": "Cuaderno de Espiral",
+      "price": 2,
+      "tax": 10,
+      "quantity": 75
+    },
+    {
+      "id": "2",
+      "reference": "REF002",
+      "name": "Pluma negra",
+      "description": "Pluma de tinta negra de punta fina",
+      "price": 1.99,
+      "tax": 8,
+      "quantity": 18
+    },
+    {
+      "id": "3",
+      "reference": "REF003",
+      "name": "Libreta de dibujo",
+      "description": "Libreta con papel de calidad para dibujar",
+      "price": 8.99,
+      "tax": 15,
+      "quantity": 49
+    },
+    {
+      "id": "4",
+      "reference": "REF004",
+      "name": "Juego de lápices de colores",
+      "description": "Lápices de colores en estuche",
+      "price": 12.99,
+      "tax": 18,
+      "quantity": 25
+    },
+    {
+      "id": "5",
+      "reference": "REF005",
+      "name": "Calculadora básica",
+      "description": "Calculadora solar y a batería",
+      "price": 9.99,
+      "tax": 12,
+      "quantity": 25
+    },
+    {
+      "id": "6",
+      "reference": "REF006",
+      "name": "Regla de 30 cm",
+      "description": "Regla transparente de 30 cm",
+      "price": 2.99,
+      "tax": 8,
+      "quantity": 25
+    },
+    {
+      "id": "7",
+      "reference": "REF007",
+      "name": "Carpeta de archivos",
+      "description": "Carpeta para organizar documentos",
+      "price": 6.99,
+      "tax": 15,
+      "quantity": 27
+    },
+    {
+      "id": "8",
+      "reference": "REF008",
+      "name": "Agenda semanal",
+      "description": "Agenda con vista semanal",
+      "price": 15.99,
+      "tax": 20,
+      "quantity": 27
+    },
+    {
+      "id": "9",
+      "reference": "REF009",
+      "name": "Corrector líquido",
+      "description": "Corrector líquido para papel",
+      "price": 3.49,
+      "tax": 10,
+      "quantity": 27
+    },
+    {
+      "reference": "REF010",
+      "name": "Estuche de bolígrafos",
+      "price": 7.99,
+      "description": "Estuche con bolígrafos de varios colores",
+      "tax": 18,
+      "quantity": 60,
+      "id": "10"
+    },
+    {
+      "reference": "Prueba 1",
+      "name": "Tablas de madera",
+      "price": 54,
+      "description": "5",
+      "tax": 10,
+      "quantity": 88,
+      "id": "6639"
+    },
+    {
+      "id": "6d37",
+      "reference": "Prueba 2",
+      "name": "Tablas de madera",
+      "price": 100,
+      "description": "Prueba 2",
+      "tax": 10,
+      "quantity": 14
+    },
+    {
+      "id": "ffa3",
+      "reference": "Prueba 3",
+      "name": "Tablas de madera",
+      "price": 510,
+      "description": "Varios",
+      "tax": 20,
+      "quantity": 300
+    },
+    {
+      "id": "df71",
+      "reference": "Prueba 4",
+      "name": "Tablas de madera",
+      "price": 1555,
+      "description": "Varios",
+      "tax": 5,
+      "quantity": 600
+    },
+    {
+      "id": "da63",
+      "reference": "Prueba 4",
+      "name": "Tablas de madera",
+      "price": 66,
+      "description": "ll",
+      "tax": 50,
+      "quantity": 4
+    },
+    {
+      "id": "68bf",
+      "reference": "Prueba 3",
+      "name": "LB",
+      "price": 54,
+      "description": "2",
+      "tax": 22,
+      "quantity": 0
+    }
+  ],
+  "orders": [
+    {
+      "id": "1ad8cd93",
+      "items": [
+        {
+          "id": "1",
+          "reference": "REF001",
+          "quantity": 10,
+          "priceWithoutTax": 20,
+          "priceWithTax": 22
+        },
+        {
+          "id": "2",
+          "reference": "REF002",
+          "quantity": 10,
+          "priceWithoutTax": 19.9,
+          "priceWithTax": 21.492
+        },
+        {
+          "id": "3",
+          "reference": "REF003",
+          "quantity": 10,
+          "priceWithoutTax": 89.9,
+          "priceWithTax": 103.385
+        }
+      ],
+      "totalPriceWithoutTax": 129.8,
+      "totalPriceWithTax": 146.877
+    },
+    {
+      "id": "082a8d1a",
+      "items": [
+        {
+          "id": "4",
+          "reference": "REF004",
+          "quantity": 5,
+          "priceWithoutTax": 64.95,
+          "priceWithTax": 76.641
+        },
+        {
+          "id": "5",
+          "reference": "REF005",
+          "quantity": 5,
+          "priceWithoutTax": 49.95,
+          "priceWithTax": 55.94400000000001
+        },
+        {
+          "id": "6",
+          "reference": "REF006",
+          "quantity": 5,
+          "priceWithoutTax": 14.950000000000001,
+          "priceWithTax": 16.146
+        }
+      ],
+      "totalPriceWithoutTax": 129.85,
+      "totalPriceWithTax": 148.731
+    },
+    {
+      "id": "a5b4204b",
+      "items": [
+        {
+          "id": "7",
+          "reference": "REF007",
+          "quantity": 3,
+          "priceWithoutTax": 20.97,
+          "priceWithTax": 24.115499999999997
+        },
+        {
+          "id": "8",
+          "reference": "REF008",
+          "quantity": 3,
+          "priceWithoutTax": 47.97,
+          "priceWithTax": 57.564
+        },
+        {
+          "id": "9",
+          "reference": "REF009",
+          "quantity": 3,
+          "priceWithoutTax": 10.47,
+          "priceWithTax": 11.517000000000001
+        }
+      ],
+      "totalPriceWithoutTax": 79.41,
+      "totalPriceWithTax": 93.19649999999999
+    },
+    {
+      "id": "30c4ff1f",
+      "items": [
+        {
+          "id": "68bf",
+          "reference": "Prueba 3",
+          "quantity": 2,
+          "priceWithoutTax": 108,
+          "priceWithTax": 131.76
+        }
+      ],
+      "totalPriceWithoutTax": 108,
+      "totalPriceWithTax": 131.76
+    },
+    {
+      "id": "b3ae9a5d",
+      "items": [
+        {
+          "id": "1",
+          "reference": "REF001",
+          "quantity": 1,
+          "priceWithoutTax": 2,
+          "priceWithTax": 2.2
+        }
+      ],
+      "totalPriceWithoutTax": 2,
+      "totalPriceWithTax": 2.2
+    },
+    {
+      "id": "04ee29cb",
+      "items": [
+        {
+          "id": "1",
+          "reference": "REF001",
+          "quantity": 1,
+          "priceWithoutTax": 2,
+          "priceWithTax": 2.2
+        }
+      ],
+      "totalPriceWithoutTax": 2,
+      "totalPriceWithTax": 2.2
+    },
+    {
+      "id": "72a487f8",
+      "items": [
+        {
+          "id": "1",
+          "reference": "REF001",
+          "quantity": 1,
+          "priceWithoutTax": 2,
+          "priceWithTax": 2.2
+        }
+      ],
+      "totalPriceWithoutTax": 2,
+      "totalPriceWithTax": 2.2
+    }
+  ]
+}
